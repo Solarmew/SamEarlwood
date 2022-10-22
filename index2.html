@@ -96,13 +96,10 @@
                   </div>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-		    <li onclick="scrollToTop()"><a>Home<span></span><span></span><span></span><span></span></a>
+		    <li>
+		    <a onclick="window.scroll({ top: 0, behavior: 'smooth' }); window.location.hash = '';">Home
+			<span></span><span></span><span></span><span></span></a>
                     </li>
-					  <script>
-								function scrollToTop() {
-									window.scrollTo({ top: 0, behavior: 'smooth' });
-								}
-							</script>
                     <li><a href="#about">About Me<span></span><span></span><span></span><span></span></a>
                     </li>
                     <li><a href="#events">Events<span></span><span></span><span></span><span></span></a>
