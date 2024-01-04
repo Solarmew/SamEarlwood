@@ -13,7 +13,25 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #ffffff;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-	<style> body {background-color: #ffffff; background-image: url('images/se3.jpg'); background-size: 100vw}</style>
+	<style> body {background-color: #ffffff; background-image: url('images/se3.jpg'); background-size: 100vw}
+    </style>
+	<style>
+	    .centered-section {
+	        text-align: center;
+	    }
+	
+	    .centered-section .centered-image {
+	        display: inline-block;
+	    }
+	
+	    @media (min-width: 768px) {
+	        .centered-section .centered-image {
+	            margin-left: auto;
+	            margin-right: auto;
+	            display: block;
+	        }
+	    }
+	</style>
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
@@ -391,13 +409,11 @@ We were so thrilled to have had Sam play for our reception drinks. He has such a
 
       <!-- Tips -->
 	<div class="nav" id="tips"></div>
-	<section class="section section-md bg-white text-center">
-	<div class="box-centered">
+	<section class="section section-md bg-white centered-section">
 	    <p class="heading-1"><a href="https://revolut.me/samearlwoodmusic">Buy me a coffee :)</a></p>
-	    <p><a href="https://revolut.me/samearlwoodmusic">
+	    <p class="centered-image"><a href="https://revolut.me/samearlwoodmusic">
 	        <img src="images/Revolut.png" style="width: 60px; height: auto; max-width: 100%;" alt="Revolut">
 	    </a></p>
-	</div>
 	</section>
       <!-- Page Footer-->
       <footer class="footer-centered section bg-gray-darker">
